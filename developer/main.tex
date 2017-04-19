@@ -1,0 +1,172 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Natalie}{Smith}
+\title{Developer}                               % optional, remove / comment the line if not wanted
+\address{2446 Sinclair Rd}{Victoria BC}{V8N 1B3}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+1~(234)~567~890}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{+1~(250)~216~8268}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{smithnm@uvic.ca}                               % optional, remove / comment the line if not wanted
+\homepage{www.nataliesmith.ca}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Key Competencies}
+\begin{itemize}%
+	\item Hands on experience modern development tools and technologies 
+	\item Full-stack development
+	\item Familiar with Agile methodologies
+	\item Experience writing test plans, creating test cases and writing functional unit tests
+	\item Ability to work effectively within a team setting	while also being a motivated, proactive and self-starting independent worker
+	\item Possess willingness and work ethic to learn new technologies and skills
+	\item Extensive experience with customer service and practical problem-solving as well as exceptional written and verbal communication skills
+\end{itemize}
+
+\section{Technical Skills}
+%\cvlistdoubleitem{C/C++}{MatLab}
+\cvlistdoubleitem{HTML5/CSS3}{Javascript/jQuery}
+\cvlistdoubleitem{Angular 2}{Unit Testing}
+\cvlistdoubleitem{Ruby on Rails}{JSON/XML}
+%\cvlistdoubleitem{C/C++}{C\#/.NET}
+\cvlistdoubleitem{SQL}{C\#/.NET}
+\cvlistdoubleitem{Responsive Design}{Version Control}
+
+\section{Education}
+\cventry{2011--2016}{B.Eng}{University of Victoria}{Victoria BC}{\textit{Biomedical Engineering}}{Specialization in Mechatronics}  % arguments 3 to 6 can be left empty
+
+\section{Experience}
+\cventry{May--Aug 2015}{Undergraduate Researcher}{University of Victoria}{Victoria BC}{}{Worked in the Crystal Growth Laboratory designing a new control system for a 30 zone crystal growth furnace.
+\begin{itemize}%
+\item Ran experiments on the crystal growth furnace including material preparation, furnace loading, and sample testing using a Scanning Electron Microscope
+\item Designed an implemented a fuzzy PID control system in LabView with adaptive control for the crystal growth furnace
+\end{itemize}}
+\cventry{Sept--Dec 2013}{Undergraduate Researcher}{University of Victoria}{Victoria BC}{}{Worked in the Biomedical Design and Systems Laboratory developing a medical phantom for use in testing and calibrating an ultrasound-controlled hand prosthesis.
+\begin{itemize}%
+	\item Designed and developed a medical phantom representing the ultrasonic properties of the tendon-hand system
+	\item Tested prototypes and determined ultrasonic properties of materials
+	\item Used an Ultrasonix ultrasound machine and MatLab to capture video and images of phantom prototypes
+\end{itemize}}
+\cventry{Jan--Apr 2013}{Clinical Engineering Co-op}{Island Health}{Victoria BC}{}{Worked in the Biomedical Engineering department of Island Health to assist in tasks such as device procurement and installation, cost analysis, preventative maintenance, and consulting with medical professionals.
+\begin{itemize}%
+	\item Assisted in medical device procurement and installation in hospital settings
+	\item Performed cost analysis for major contract renewals
+	\item Performed preventative maintenance on medical devices such as infusion pumps, defibrillators, and AEDs
+	\item Consulted with medical professionals within multiple health networks across Canada in preparation for a networked fetal monitoring system
+\end{itemize}}
+\cventry{2011--Present}{Team Leader, Facility Attendant}{Saanich Commonwealth Place}{Victoria BC}{}{Work in supervisory roles as a Team Leader and Facility Attendant to oversee multiple staff and ensure that programs are running safely and effectively.	
+\begin{itemize}%
+	\item Team Leader: Directly supervise a team of lifeguards to ensure safe pool coverage, oversee first aid situations, mediate public relations situations and provide excellent internal and external customer service
+	\item Facility Attendant: Responsible for overseeing all facility programs, coordinating and providing back-up for all staff and conducting emergency procedures in case of emergencies
+\end{itemize}}
+
+\section{Technical Projects}
+\cvitem{Web Development}{Developed multiple full stack web applications in both Ruby on Rails and Angular2. Portfolio available upon request.}
+\cvitem{Mechatronics}{Designed the firmware to accomplish a conveyor belt sorting task}
+\begin{itemize}%
+	\item Integrated multiple sensors, actuators and motors with a microcontroller programmed in C
+\end{itemize}
+\cvitem{Neural Networks}{Designed a neural network to classify data instances in an online breast cancer database as malignant or benign}
+\begin{itemize}%
+	\item Used MatLab to implement a three-layer feedforward neural network to automatically classify instances of breast cancer malignancy
+\end{itemize}
+\cvitem{Biomedical Image Processing}{Solved task of retinal vessel segmentation in retinal images by using MatLab to implement adaptive local thresholding by multithreshold probing}
+
+\section{References}
+\begin{cvcolumns}
+  \cvcolumn{Dr. Nikolai Dechev}{Associate Professor \\ University of Victoria \\ Biomedical Design and Systems Laboratory \\ 250-721-8933}
+  \cvcolumn{Dr. Kelly Stegman-Brooks}{University of Victoria \\ Biomedical Design and Systems Laboratory \\ kstegman@uvic.ca}
+  \cvcolumn{Michael Sheehan}{Program Technician \\ Saanich Commonwealth Place \\ 250-475-7607}
+\end{cvcolumns}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+%\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+\newcommand{\company}{Society6}
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{\company}{}
+\date{April 17, 2017}
+\opening{Dear Sir or Madam,}
+\closing{Sincerely,}
+\enclosure[Attached]{Resume}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+I am writing to apply for the software engineer position advertised; I feel that my skills and experience would make me an ideal candidate for this role.
+
+I have been passionately pursuing software development challenges through academic electives, co-op positions, and personal projects. 
+%I graduated with a Bachelor’s degree in Biomedical Engineering and
+These experiences have turned me into a skilled developer who can help \company~to achieve its vision of the future. 
+I am practiced at using a variety of web development technologies such as HTML5/CSS3, Javascript, Angular2, Ruby on Rails, C\#/.NET and MySQL.
+
+Further, I have technical project experience in several additional skills which \company~may find useful, including test driven development and image processing working in C/C++ and MatLab. 
+%I have experience testing and debugging software as well as designing test cases and writing unit tests. I understand the extreme importance of designing software to identify potential problems and improve testability.
+
+My wide-ranging work experience has given me the ability to work effectively within a team setting while also being a motivated, proactive and self-starting independent worker. 
+I value clear written and verbal communication to ensure projects are completed efficiently. 
+I also have excellent problem-solving skills which allow me to deal with the unknown and unexpected. 
+I am extremely resourceful with the willingness and work ethic to learn new technologies and skills in the ever-changing field of software development.
+
+I believe that my experience, drive and passion for learning and hard work would make me an excellent addition to the \company~team. 
+I look forward to hearing from you.
+
+\makeletterclosing
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
