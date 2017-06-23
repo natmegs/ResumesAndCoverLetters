@@ -25,15 +25,15 @@
 
 % personal data
 \name{Natalie}{Smith}
-\title{Developer}                               % optional, remove / comment the line if not wanted
-\address{2446 Sinclair Rd}{Victoria BC}{V8N 1B3}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\title{Engineer}                               % optional, remove / comment the line if not wanted
+\address{14013 Captains Row, A110}{Marina Del Rey, CA}{90292}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 %\phone[mobile]{+1~(234)~567~890}                   % optional, remove / comment the line if not wanted
-\phone[fixed]{+1~(250)~216~8268}                    % optional, remove / comment the line if not wanted
+\phone[fixed]{+1~(424)~350~1415}                    % optional, remove / comment the line if not wanted
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
 \email{smithnm@uvic.ca}                               % optional, remove / comment the line if not wanted
 \homepage{www.nataliesmith.ca}                         % optional, remove / comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
-\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
@@ -56,7 +56,7 @@
 \begin{itemize}%
 	\item Hands on experience modern development tools and technologies 
 	\item Full-stack development
-	\item Familiar with Agile methodologies
+	\item Ability to integrate hardware and software components in mechatronics systems
 	\item Experience writing test plans, creating test cases and writing functional unit tests
 	\item Ability to work effectively within a team setting	while also being a motivated, proactive and self-starting independent worker
 	\item Possess willingness and work ethic to learn new technologies and skills
@@ -68,14 +68,26 @@
 \cvlistdoubleitem{HTML5/CSS3}{Javascript/jQuery}
 \cvlistdoubleitem{Angular 2}{Unit Testing}
 \cvlistdoubleitem{Ruby on Rails}{JSON/XML}
-%\cvlistdoubleitem{C/C++}{C\#/.NET}
-\cvlistdoubleitem{SQL}{C\#/.NET}
-\cvlistdoubleitem{Responsive Design}{Version Control}
+\cvlistdoubleitem{C/C++}{Image Processing}
+\cvlistdoubleitem{C\#/.NET}{Sensor Integration}
+\cvlistdoubleitem{Microcontrollers}{Control Systems}
 
 \section{Education}
 \cventry{2011--2016}{B.Eng}{University of Victoria}{Victoria BC}{\textit{Biomedical Engineering}}{Specialization in Mechatronics}  % arguments 3 to 6 can be left empty
 
 \section{Experience}
+
+\cventry{May 2017--Present}{Software Engineer}{QuikStor Security \& Software}{Van Nuys CA}{}{
+	Responsible for front-end development of large-scale cloud web application. 
+	Designed, developed and implemented page components using .
+	\begin{itemize}%
+		\item Responsible for front-end development of a large-scale cloud web application.
+		\item Designed, developed and implemented user-interface components using Angular 2.
+		\item Created intuitve yet powerful designs using HTML, CSS3 and Typescript.
+		\item Designed efficient and reliable HTTP network communication.
+		\item Collaborated in a team environment.
+\end{itemize}}
+\newpage
 \cventry{May--Aug 2015}{Undergraduate Researcher}{University of Victoria}{Victoria BC}{}{Worked in the Crystal Growth Laboratory designing a new control system for a 30 zone crystal growth furnace.
 \begin{itemize}%
 \item Ran experiments on the crystal growth furnace including material preparation, furnace loading, and sample testing using a Scanning Electron Microscope
@@ -106,24 +118,50 @@
 \begin{itemize}%
 	\item Integrated multiple sensors, actuators and motors with a microcontroller programmed in C
 \end{itemize}
+\cvitem{Engineering Design}{In a team of students, designed and developed a device to mimic the breathing action of human lungs}
+\begin{itemize}%
+	\item Integrated multiple sensors and a linear actuator using a microcontroller to produce the mechanical breathing action of the device and to monitor several environmental conditions of the device such as humidity, C02 content, and temperature
+\end{itemize}
 \cvitem{Neural Networks}{Designed a neural network to classify data instances in an online breast cancer database as malignant or benign}
 \begin{itemize}%
 	\item Used MatLab to implement a three-layer feedforward neural network to automatically classify instances of breast cancer malignancy
 \end{itemize}
 \cvitem{Biomedical Image Processing}{Solved task of retinal vessel segmentation in retinal images by using MatLab to implement adaptive local thresholding by multithreshold probing}
 
-\section{References}
-\begin{cvcolumns}
-  \cvcolumn{Dr. Nikolai Dechev}{Associate Professor \\ University of Victoria \\ Biomedical Design and Systems Laboratory \\ 250-721-8933}
-  \cvcolumn{Dr. Kelly Stegman-Brooks}{University of Victoria \\ Biomedical Design and Systems Laboratory \\ kstegman@uvic.ca}
-  \cvcolumn{Michael Sheehan}{Program Technician \\ Saanich Commonwealth Place \\ 250-475-7607}
-\end{cvcolumns}
+%\section{References}
+%\begin{cvcolumns}
+ % \cvcolumn{Dr. Nikolai Dechev}{Associate Professor \\ University of Victoria \\ Biomedical Design and Systems Laboratory \\ 250-721-8933}
+ % \cvcolumn{Dr. Kelly Stegman-Brooks}{University of Victoria \\ Biomedical Design and Systems Laboratory \\ kstegman@uvic.ca}
+ % \cvcolumn{Michael Sheehan}{Program Technician \\ Saanich Commonwealth Place \\ 250-475-7607}
+%\end{cvcolumns}
 
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
 %  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
-\nocite{*}
-\bibliographystyle{plain}
+\section{References}
+\begin{cvcolumns}
+	\cvcolumn{Dr. Nikolai Dechev}{
+		\begin{itemize}
+			\item Associate Professor.
+			\item University of Victoria
+			\item Biomedical Design and Systems
+			Laboratory
+			\item Phone:~250~721-8933
+	\end{itemize}}
+	\cvcolumn{Dr. Kelly Stegman-Brooks}{
+		\begin{itemize}
+			\item University of Victoria
+			\item Biomedical Design and Systems
+			Laboratory
+			\item Email:~kstegman@uvic.ca
+	\end{itemize}}
+	\cvcolumn{Michael Sheehan}{
+		\begin{itemize}
+			\item Program Technician
+			\item Saanich Commonwealth Place
+			\item Phone:~250~475-7607 
+	\end{itemize}}
+\end{cvcolumns}
 %\bibliography{publications}                        % 'publications' is the name of a BibTeX file
 
 % Publications from a BibTeX file using the multibib package
@@ -134,38 +172,7 @@
 %\nocitemisc{misc1,misc2,misc3}
 %\bibliographystylemisc{plain}
 %\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
-\newcommand{\company}{Society6}
-\clearpage
-%-----       letter       ---------------------------------------------------------
-% recipient data
-\recipient{\company}{}
-\date{April 17, 2017}
-\opening{Dear Sir or Madam,}
-\closing{Sincerely,}
-\enclosure[Attached]{Resume}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
-\makelettertitle
 
-I am writing to apply for the software engineer position advertised; I feel that my skills and experience would make me an ideal candidate for this role.
-
-I have been passionately pursuing software development challenges through academic electives, co-op positions, and personal projects. 
-%I graduated with a Bachelor’s degree in Biomedical Engineering and
-These experiences have turned me into a skilled developer who can help \company~to achieve its vision of the future. 
-I am practiced at using a variety of web development technologies such as HTML5/CSS3, Javascript, Angular2, Ruby on Rails, C\#/.NET and MySQL.
-
-Further, I have technical project experience in several additional skills which \company~may find useful, including test driven development and image processing working in C/C++ and MatLab. 
-%I have experience testing and debugging software as well as designing test cases and writing unit tests. I understand the extreme importance of designing software to identify potential problems and improve testability.
-
-My wide-ranging work experience has given me the ability to work effectively within a team setting while also being a motivated, proactive and self-starting independent worker. 
-I value clear written and verbal communication to ensure projects are completed efficiently. 
-I also have excellent problem-solving skills which allow me to deal with the unknown and unexpected. 
-I am extremely resourceful with the willingness and work ethic to learn new technologies and skills in the ever-changing field of software development.
-
-I believe that my experience, drive and passion for learning and hard work would make me an excellent addition to the \company~team. 
-I look forward to hearing from you.
-
-\makeletterclosing
-
-%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
 
 
