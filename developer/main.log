@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  24 JUL 2017 07:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  8 AUG 2017 07:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1008,33 +1008,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--54
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 78.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 89.
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/m/n' instead on input line 166.
+(Font)              using `T1/lmss/m/n' instead on input line 167.
 
 
-Overfull \hbox (304.75247pt too wide) in paragraph at lines 166--166
+Overfull \hbox (304.75247pt too wide) in paragraph at lines 167--167
 [][][]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 []\T1/lmss/m/n/10.95 (+20) Saanich Com-mon-wealth
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1215DD47D2C199D23A85C8919FB8C3A9;682.
+(rerunfilecheck)             Checksum: 458BF25382E43CEB6AC449BC5166EE87;682.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1043,7 +1043,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  19418 strings out of 492995
  326387 string characters out of 6132704
- 407633 words of memory out of 5000000
+ 407641 words of memory out of 5000000
  22745 multiletter control sequences out of 15000+600000
  50079 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1056,9 +1056,9 @@ st/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/public/lm/lmssbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/lm/lmsso10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/marvo
 sym/marvosym.pfb>
-Output written on main.pdf (3 pages, 143412 bytes).
+Output written on main.pdf (3 pages, 143097 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
  14897 words of extra memory for PDF output out of 17280 (max. 10000000)
