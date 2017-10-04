@@ -1,0 +1,20 @@
+=====================================================================
+Please tell me your experience with Javascript, SCSS/Sass, React.js?
+=====================================================================
+I am extremely comfortable and skilled with javascript. With my current position at QuikStor solutions I am the lead front-end developer. Our front end team uses Angular 2 to build a complex, data driven application. 
+
+I use React.JS to contribute to an open source data-visualization project called Neuro.Js which uses live brain-scan data to create complex visualizations. 
+
+I uses Sass all the time in both my professional and personal projects. I am very familiar with it's use.
+
+=====================================================================
+Please tell me your experience with any of the following ES6, React, Redux, gulp, Webpack, and ESLint?
+=====================================================================
+Both Angular and React use ES6 javascript natively. I am extremely familiar with it as it is what I use at my current position, with my open source contributions as well as other personal projects. 
+
+At Quikstor we use Gulp to transpile our Javascript. I am very familiar with  its use and set up.
+
+=====================================================================
+Please tell me the details of your most recent salary (base, bonus, commission, etc.) and your ideal salary for this position?
+=====================================================================
+My current salary is an annual rate of $55,000. I believe this to be below industry standard for my skills and experience. For such a role as this I would be looking for $70,000 to $80,000 per year.
